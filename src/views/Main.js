@@ -20,6 +20,7 @@ class Main extends Component {
      return (
   <Switch>
     <Route exact path="/" component={LandingPage} />
+    <Route path="/react_barbershop" component={LandingPage} />
     <Route path="/services" component={PriceList} />
     <Route path="/profile" component={Profile} />
     <Route path="/sign-up" component={SignUpForm} />
