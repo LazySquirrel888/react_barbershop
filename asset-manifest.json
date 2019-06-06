@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_barbershop/static/css/main.cfda8877.chunk.css",
-    "main.js": "/react_barbershop/static/js/main.a8fcd86b.chunk.js",
-    "main.js.map": "/react_barbershop/static/js/main.a8fcd86b.chunk.js.map",
-    "runtime~main.js": "/react_barbershop/static/js/runtime~main.217ef99c.js",
-    "runtime~main.js.map": "/react_barbershop/static/js/runtime~main.217ef99c.js.map",
-    "static/js/2.6b6d4a00.chunk.js": "/react_barbershop/static/js/2.6b6d4a00.chunk.js",
-    "static/js/2.6b6d4a00.chunk.js.map": "/react_barbershop/static/js/2.6b6d4a00.chunk.js.map",
-    "index.html": "/react_barbershop/index.html",
-    "precache-manifest.87cd31207f82c45e5693a4ed12316416.js": "/react_barbershop/precache-manifest.87cd31207f82c45e5693a4ed12316416.js",
-    "service-worker.js": "/react_barbershop/service-worker.js",
-    "static/css/main.cfda8877.chunk.css.map": "/react_barbershop/static/css/main.cfda8877.chunk.css.map"
+    "main.css": "/static/css/main.cfda8877.chunk.css",
+    "main.js": "/static/js/main.47e02404.chunk.js",
+    "main.js.map": "/static/js/main.47e02404.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.fc63af4f.chunk.js": "/static/js/2.fc63af4f.chunk.js",
+    "static/js/2.fc63af4f.chunk.js.map": "/static/js/2.fc63af4f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c96411dc7ab16b099c74d113000e4736.js": "/precache-manifest.c96411dc7ab16b099c74d113000e4736.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cfda8877.chunk.css.map": "/static/css/main.cfda8877.chunk.css.map"
   }
 }
