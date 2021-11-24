@@ -51,6 +51,10 @@ class SignInForm extends Component {
     };
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
   }
+
+  componentDidMount(){
+    document.title = "Sign In"
+  }
    
   handleChange = (event) => {
     const input = event.target;
@@ -149,9 +153,9 @@ class SignInForm extends Component {
             </div>      
           </Container>
     );
-    };
+    }
   };
-};
+}
 
 SignInForm.propTypes = {
   classes: PropTypes.object.isRequired,

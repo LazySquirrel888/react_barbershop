@@ -1,12 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles, withStyles} from '@material-ui/core/styles';
 import { Container, GridList, GridListTile, GridListTileBar, Typography } from '@material-ui/core';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import { tileData } from '../datastore.js';
 
-
-const useStyles = makeStyles(theme => ({
+const styles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -20,18 +19,28 @@ const useStyles = makeStyles(theme => ({
     textTransform: 'uppercase',
   },
   gridList: {
-      width: '100%',
-      paddingBottom: theme.spacing(8),
+    width: '100%',
+    paddingBottom: theme.spacing(8),
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
     margin: theme.spacing(2),
   },
- 
+
 }));
- 
-export default function PriceList() {
-  const classes = useStyles();
+
+class PriceList extends Component {
+
+  constructor(props) {
+    super(props);
+  };
+
+  componentDidMount(){
+    document.title = "Services"
+  }
+
+  render () {
+    const { classes } = this.props;
   
   return (
     <div className={classes.root}>
@@ -58,4 +67,7 @@ export default function PriceList() {
       </Container>
     </div>
   );
-}
+}}
+
+export default
+withStyles(styles) (PriceList);
