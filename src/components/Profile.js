@@ -11,6 +11,10 @@ class Profile extends Component {
       isLoggedIn: false
     };
   };
+
+  componentDidMount(){
+    document.title = "Profile"
+  }
   
   render () {
     const isLoggedIn = localStorage.getItem('isLoggedIn'); 
@@ -23,8 +27,8 @@ class Profile extends Component {
     return (
       <Redirect to='/sign-in'/>
     )
-    };
+    }
   };
-};
+}
 
 export default (Profile);

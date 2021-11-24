@@ -70,6 +70,9 @@ const styles = theme => ({
 });
 
 class LandingPage extends Component {
+    componentDidMount(){
+        document.title = "Start Page"
+    }
     
   render () {
     const { classes } = this.props;
@@ -121,7 +124,7 @@ class LandingPage extends Component {
         </section>
       </>
     )
-}};
+}}
 
 LandingPage.propTypes = {
   classes: PropTypes.object.isRequired,
