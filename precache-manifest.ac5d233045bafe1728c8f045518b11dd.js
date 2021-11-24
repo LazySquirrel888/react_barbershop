@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3a17f32168e7ef10853337b5cb4701b",
+    "revision": "75df8bff233c73f696bb3417f90cc73b",
     "url": "/react_barbershop/index.html"
   },
   {
-    "revision": "4272cf7f38977293df2c",
+    "revision": "e6b0f467f6e8477d0111",
     "url": "/react_barbershop/static/css/main.498d002a.chunk.css"
   },
   {
-    "revision": "91c73788fc7261b70311",
-    "url": "/react_barbershop/static/js/2.ef93c72a.chunk.js"
+    "revision": "ccaadd1dc0c5d9606d06",
+    "url": "/react_barbershop/static/js/2.580595f6.chunk.js"
   },
   {
-    "revision": "4272cf7f38977293df2c",
-    "url": "/react_barbershop/static/js/main.41b0792c.chunk.js"
+    "revision": "e6b0f467f6e8477d0111",
+    "url": "/react_barbershop/static/js/main.7725bd25.chunk.js"
   },
   {
     "revision": "4fbeee9356c2e9e2e21a",
